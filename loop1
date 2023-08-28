@@ -1,0 +1,78 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+ //loop is repetation
+ //for loop
+ //while loop
+ //do while loop
+ //for each loop
+
+ //FOR LOOP//
+ //SYNTAX//
+
+ //for(int i=1;i<5;i=i+1){
+ // cout<<i<<endl;
+
+ //}
+ //for (int i =2;i<10;i=i+2){//initailazation,condition,updation
+  //cout<<i<<endl;
+ //}
+
+ // #2 PATTERNPRINTING//
+ //1.SQUARE//
+ //for(int i=0;i<4;i++){//outer loop rows
+  //for(int j=0;j<4;j++){//inner loop coloums
+  //  cout<<"*";
+ // }
+ // cout<<endl; 
+ //}
+
+//2.RECTANGLE//
+
+//  for(int i=0;i<3;i++){
+//   for (int j=0;j<5;j++){
+//     cout<<"*";
+//   }
+//   cout<<endl;
+//  }
+
+//3.HOLOOW RECTANGLE//
+
+// for(int row=0;row<5;row++){
+//   for(int col=0;col<5;col++){
+//     if(row==0||row==4){
+//       cout<<"*";
+//     }
+//     else{
+//       if(col==0||col==4){
+//         cout<<"*";
+//       }
+//       cout<<" ";
+//     }
+//   }
+// }
+
+//4.PYRAMID//
+// for(int row=0;row<5;row++){
+//   for(int col=0;col<row+1;col++){
+//     cout<<"*";
+//   }
+//   cout<<endl;
+// }
+
+//5.INVETED HALF PYRAMID//
+// cout<<"enter the value of n";
+//int n; 
+// cin>>n;
+// for(int row =0;row<n;row++){
+//   for (int col=0;col<n-row;col++){
+//     cout<<"*";
+//   }
+  cout<<endl;
+//}
+
+
+
+
+  return 0;
